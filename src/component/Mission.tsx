@@ -20,7 +20,7 @@ const Mission = () => {
           <p className="text-xl md:text-2xl text-gray-700 mb-8">
             Since 1990, our mission has been to deliver top-quality construction services, ensuring safety, innovation, and client satisfaction in every project.
           </p>
-          <button className="bg-orange-600 text-white px-8 py-4 md:px-10 md:py-5 rounded-lg font-semibold hover:bg-orange-700 transition text-lg md:text-xl">Read More</button>
+          <button className="bg-gradient-to-r from-blue-900 via-blue-700 to-blue-400 text-white px-8 py-4 md:px-10 md:py-5 rounded-lg font-semibold hover:from-blue-800 hover:to-blue-500 transition text-lg md:text-xl">Read More</button>
         </div>
       </div>
     </section>

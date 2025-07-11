@@ -5,36 +5,37 @@ const Footer = () => {
         {/* Logo and Address */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <span className="text-2xl font-bold text-orange-400">ConstructEdge</span>
+            <span className="text-2xl font-bold text-blue-400">Ominitech Synergy Limited</span>
           </div>
-          <p className="text-gray-400 text-sm mb-2">921 West 45th Street<br />New York, NY</p>
-          <p className="text-gray-400 text-sm mb-2">Phone: (123) 123-4567</p>
-          <p className="text-gray-400 text-sm mb-2">Email: info@yoursite.com</p>
+          <p className="text-gray-400 text-sm mb-2">Along New Airport Rd. Beside Dunamis Church<br />Port Harcourt<br />Rivers State</p>
+          <p className="text-gray-400 text-sm mb-2">Phone: <a href="tel:+2348033429347" className="hover:text-blue-400 transition">+234 803 342 9347</a>, <a href="tel:+2349152249875" className="hover:text-blue-400 transition">+234 915 224 9875</a></p>
+          <p className="text-gray-400 text-sm mb-2">Email: <a href="mailto:info@ominitechsynergy.com" className="hover:text-blue-400 transition">info@ominitechsynergy.com</a></p>
           <div className="flex gap-3 mt-4">
-            <a href="#" className="text-orange-400 hover:text-white transition"><i className="fab fa-facebook-f"></i>FB</a>
-            <a href="#" className="text-orange-400 hover:text-white transition"><i className="fab fa-twitter"></i>TW</a>
-            <a href="#" className="text-orange-400 hover:text-white transition"><i className="fab fa-linkedin-in"></i>LI</a>
+            <a href="#" className="text-blue-400 hover:text-white transition"><i className="fab fa-facebook-f"></i>FB</a>
+            <a href="#" className="text-blue-400 hover:text-white transition"><i className="fab fa-twitter"></i>TW</a>
+            <a href="#" className="text-blue-400 hover:text-white transition"><i className="fab fa-linkedin-in"></i>LI</a>
           </div>
         </div>
         {/* Links */}
         <div>
           <h4 className="font-bold mb-3">Links</h4>
           <ul className="text-gray-400 text-sm space-y-2">
-            <li><a href="#" className="hover:text-orange-400 transition">Home</a></li>
-            <li><a href="#" className="hover:text-orange-400 transition">About</a></li>
-            <li><a href="#" className="hover:text-orange-400 transition">Careers</a></li>
-            <li><a href="#" className="hover:text-orange-400 transition">Features</a></li>
-            <li><a href="#" className="hover:text-orange-400 transition">Demo the product</a></li>
+            <li><a href="#" className="hover:text-blue-400 transition">Home</a></li>
+            <li><a href="#" className="hover:text-blue-400 transition">About</a></li>
+            <li><a href="#" className="hover:text-blue-400 transition">Careers</a></li>
+            <li><a href="#" className="hover:text-blue-400 transition">Features</a></li>
+            <li><a href="#" className="hover:text-blue-400 transition">Demo the product</a></li>
           </ul>
         </div>
-        {/* Programs */}
+        {/* Policies */}
         <div>
-          <h4 className="font-bold mb-3">Programs</h4>
+          <h4 className="font-bold mb-3">Policies</h4>
           <ul className="text-gray-400 text-sm space-y-2">
-            <li><a href="#" className="hover:text-orange-400 transition">Private Lessons</a></li>
-            <li><a href="#" className="hover:text-orange-400 transition">Group Classes</a></li>
-            <li><a href="#" className="hover:text-orange-400 transition">Online Lessons</a></li>
-            <li><a href="#" className="hover:text-orange-400 transition">Summer Camps</a></li>
+            <li><a href="/policies#quality" className="hover:text-blue-400 transition">Quality Policy</a></li>
+            <li><a href="/policies#safety" className="hover:text-blue-400 transition">Safety Policy</a></li>
+            <li><a href="/policies#management" className="hover:text-blue-400 transition">Management Policy</a></li>
+            <li><a href="/policies#community" className="hover:text-blue-400 transition">Community Relationship</a></li>
+            <li><a href="/policies#training" className="hover:text-blue-400 transition">Training Policy</a></li>
           </ul>
         </div>
         {/* Copyright */}

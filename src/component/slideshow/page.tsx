@@ -46,7 +46,7 @@ const Slideshow = () => {
             <div
               key={index}
               className={`w-full h-24 rounded-lg overflow-hidden cursor-pointer border-4 ${
-                currentIndex === index ? 'border-orange-500' : 'border-transparent'
+                currentIndex === index ? 'border-blue-500' : 'border-transparent'
               } transition-all duration-300`}
               onClick={() => setCurrentIndex(index)}
             >
