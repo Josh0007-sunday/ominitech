@@ -1,5 +1,3 @@
-import React from 'react';
-
 const projects = [
   'High-rise Office Complex',
   'Luxury Residential Towers',
