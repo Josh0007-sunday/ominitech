@@ -24,11 +24,11 @@ const Subscribe = () => {
             placeholder="Enter your email"
             value={email}
             onChange={e => setEmail(e.target.value)}
-            className="flex-1 px-6 py-4 rounded-full border-2 border-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-500 text-lg bg-white shadow-md"
+            className="flex-1 px-6 py-4 rounded-full border-2 border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg bg-white shadow-md"
           />
           <button
             type="submit"
-            className="bg-orange-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-orange-600 transition shadow-lg"
+            className="bg-gradient-to-r from-blue-900 via-blue-700 to-blue-400 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-blue-800 hover:to-blue-500 transition shadow-lg"
           >
             Subscribe
           </button>
