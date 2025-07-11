@@ -1,5 +1,3 @@
-import React from 'react';
-
 const policyDetails = {
   quality: {
     title: 'Quality Policy',
